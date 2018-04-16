@@ -1,0 +1,128 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+html,body,.wrap{
+	width: 100%;
+	height: 100%;
+}
+body{
+	font-size: .03rem;
+}
+.wrap{
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
+}
+header{
+	height: .8rem;
+	background: red;
+	display: flex;
+	align-items: center;
+}
+header form{
+	flex: 8;
+	background: yellow;
+	border-radius: .5rem;
+	position: relative;
+	color: #666;
+}
+header form i.icon{
+	position: absolute;
+	left: 30%;
+	top:.02rem;
+	color: #666;
+}
+header form input{
+	border: 0;
+	border-radius: .5rem;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+header i.icon{
+	flex: 1;
+	text-align: center;
+	color: #fff;
+}
+section{
+	flex: 1;
+	overflow-y: scroll;
+}
+.list{
+	display: flex;
+	align-items: center;
+	height: .5rem;
+}
+.list span{
+	flex: 1;
+	text-align: center;
+}
+.list2{
+	height: .8rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.list2 p{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	flex: 1;
+	border-bottom: 1px solid #eee;
+	padding: .1rem 0;
+}
+.list2 p i.icon{
+	color: red;
+}
+.list2 p span{
+	color: #969896;
+}
+section ul li{
+	width: 100%;
+	height: auto;
+}
+section ul li img{
+	width: 100%;
+	height: 100%;
+}
+.main{
+	height: auto;
+}
+.main h1{
+	color: #666;
+	height: .4rem;
+	line-height: .6rem;
+	padding: .2rem 0 .2rem .1rem;
+}
+.content{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.content dl{
+	width: 32%;
+}
+.content dl dt{
+	width: 100%;
+	height: auto;
+}
+.content dl dt img{
+	width: 100%;
+	height: 100%;
+}
+footer{
+	height: .8rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+footer p{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	flex: 1;
+	background: #333;
+	color: #fff;
+}

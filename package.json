@@ -1,0 +1,29 @@
+{
+  "name": "zk1",
+  "version": "1.0.0",
+  "description": "周考1",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ztt1020/zk1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ztt1020/zk1/issues"
+  },
+  "homepage": "https://github.com/ztt1020/zk1#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-clean": "^0.4.0",
+    "gulp-clean-css": "^3.9.3",
+    "gulp-htmlmin": "^4.0.0",
+    "gulp-sequence": "^1.0.0",
+    "gulp-uglify": "^3.0.0",
+    "gulp-webserver": "^0.9.1"
+  }
+}
